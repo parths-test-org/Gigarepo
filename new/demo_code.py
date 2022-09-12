@@ -1,5 +1,4 @@
 import random
-import pdb
 import sys as sys
 import os
 import subprocess
@@ -53,7 +52,6 @@ class ImaginaryNumber:
 
 
 def main(options: dict = {}) -> str:
-    pdb.set_trace()
     if "run" in options:
         value = options["run"]
     else:
@@ -139,3 +137,6 @@ if __name__ == "__main__":
         has_truthy = True if args[i] else False
         if has_truthy:
             break
+
+def foo(a=[]):
+    breakpoint()
