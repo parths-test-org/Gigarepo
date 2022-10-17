@@ -122,6 +122,7 @@ def check(x):
 
 
 def chained_comparison():
+    breakpoint()
     a = 1
     b = 2
     c = 3
